@@ -1,0 +1,3 @@
+Click here thttps://waikato.github.io/weka-wiki/downloading_weka/#stable-version
+To download a self-extracting executable for 64-bit Windows that includes Azul's 64-bit OpenJDK Java VM 11 (weka-3-8-5-azul-zulu-windows.exe; 124.6 MB)
+This executable will install Weka in your Program Menu. Launching via the Program Menu or shortcuts will automatically use the included JVM to run Weka.
