@@ -14,7 +14,6 @@ import weka.filters.unsupervised.attribute.Remove;
 public class BinaryClassifier {
 
 	public static void main(String[] args) throws Exception{
-		
 		// load CSV file
 		CSVLoader loader = new CSVLoader();
 		loader.setSource(new File("C:\\\\Users\\\\thesk\\\\eclipse-workspace\\\\crowdsource2018_copy.csv"));
@@ -38,6 +37,8 @@ public class BinaryClassifier {
 		Instances newdf = Filter.useFilter(df, remove);
 		System.out.println(newdf);
 		
+		//The NB model assigns class labels to problem instances (yes,no / spam,not spam / give loan, don't give loan..).
+		//It uses Bayes theorem of probability for prediction of unknown class.
 		NaiveBayes nb = new NaiveBayes();
 		nb.buildClassifier(newdf);
 		Evaluation eval = new Evaluation(newdf);
