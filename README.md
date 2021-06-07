@@ -43,12 +43,19 @@ Sample output:
 
 …
 Correctly Classified Instances      376673               99.475  %
+
 Incorrectly Classified Instances      1988                0.525  %
+
 Kappa statistic                          0.9886
+
 Mean absolute error                      0.0054
+
 Root mean squared error                  0.0683
+
 Relative absolute error                  1.1793 %
+
 Root relative squared error             14.2146 %
+
 Total Number of Instances           378661
 
 
